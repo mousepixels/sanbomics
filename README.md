@@ -1,0 +1,2 @@
+Plots:
+	volcano
