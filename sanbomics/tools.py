@@ -1,4 +1,5 @@
 import pandas as pd
+import pkg_resources
 
 
 
@@ -33,12 +34,14 @@ class id_map(object):
         
         
         if self.species == 'human':
-            self.dataframe = pd.read_csv('data/human_ids.csv')
+        	stream = pkg_resources.resource_stream(__name__, 'data/human_ids.csv')
+            self.dataframe = pd.read_csv(stream)
             self.dataframe = self.dataframe.rename(columns={'hgnc_symbol': 'symbol',
                                                             'ensembl_gene_id':'ensembl',
                                                             'entrezgene_id':'entrez'})
         else:
-            self.dataframe = pd.read_csv('data/mouse_ids.csv')
+        	stream = pkg_resources.resource_stream(__name__, 'data/mouse_ids.csv')
+            self.dataframe = pd.read_csv(stream)
             self.dataframe = self.dataframe.rename(columns={'uniprot_gn_symbol': 'symbol',
                                                             'ensembl_gene_id':'ensembl',
                                                             'entrezgene_id':'entrez'})
@@ -87,4 +90,4 @@ class id_map(object):
 
 
 
-        
+
