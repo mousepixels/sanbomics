@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+sanbomics/__init__.py
+sanbomics/plots.py
+sanbomics.egg-info/PKG-INFO
+sanbomics.egg-info/SOURCES.txt
+sanbomics.egg-info/dependency_links.txt
+sanbomics.egg-info/requires.txt
+sanbomics.egg-info/top_level.txt
