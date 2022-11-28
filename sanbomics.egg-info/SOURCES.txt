@@ -1,4 +1,5 @@
 LICENSE
+MANIFEST.in
 README.md
 pyproject.toml
 sanbomics/__init__.py
@@ -9,3 +10,5 @@ sanbomics.egg-info/SOURCES.txt
 sanbomics.egg-info/dependency_links.txt
 sanbomics.egg-info/requires.txt
 sanbomics.egg-info/top_level.txt
+sanbomics/data/human_ids.csv
+sanbomics/data/mouse_ids.csv
