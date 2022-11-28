@@ -3,3 +3,4 @@ numpy>=1.17.0
 matplotlib>=3.4
 seaborn
 adjustText>=0.7.3
+pkg_resources

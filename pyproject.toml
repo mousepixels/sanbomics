@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sanbomics"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
   { name="Mark Sanborn", email="mark.email24@gmail.com" },
 ]
 description = "bioinformatics plots and tools for python"
 readme = "README.md"
-requires-python = ">=3.7".
+requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 dependencies = [
-"pandas>=1.0", "numpy>=1.17.0", "matplotlib>=3.4", "seaborn", "adjustText>=0.7.3", "pkg_resources"
+"pandas>=1.0", "numpy>=1.17.0", "matplotlib>=3.4", "seaborn", "adjustText>=0.7.3"
 ]
 
 [project.urls]

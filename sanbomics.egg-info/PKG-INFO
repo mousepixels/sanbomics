@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sanbomics
-Version: 0.0.3
+Version: 0.0.4
 Summary: bioinformatics plots and tools for python
 Author-email: Mark Sanborn <mark.email24@gmail.com>
 Project-URL: Homepage, https://github.com/mousepixels/sanbomic
@@ -12,5 +12,9 @@ Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-Plots:
-	volcano
+plots:
+	volcano: easily plot volcano plot
+		from sanbomics.plots import volcano
+tools:
+	id_map: map ensembl, entrez, and symbols between eachother
+		from sanbomics.tools import id_map
